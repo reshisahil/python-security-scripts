@@ -1,6 +1,6 @@
 
 # Task 3: Traffic Frequency Analysis & Brute-Force Alerting (`set`, `dict`)
-```
+
 This task focuses on analyzing firewall logs to identify unique source IPs and detect unusually high request frequencies.
 
 - **Security Objective:** Deduplicate network logs to count total unique source IPs and build a dynamic frequency tracker to identify possible brute-force or scanning activity.
