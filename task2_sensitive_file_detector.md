@@ -5,7 +5,7 @@
     Key Concept: String cleaning with .strip(), case normalization via .lower() / .upper(), and conditional substring matching (if "/etc/" in path:).
 
     Code Implementation:
-```python
+``` python
 suspicious_logs = [
     ' 10.0.0.15 - - [02/Oct/2026:14:10:01] "GET /index.html HTTP/1.1" 200 \n',
     ' 192.168.1.50 - - [02/Oct/2026:14:10:05] "post /ETC/PASSWD HTTP/1.1" 403 \n',
